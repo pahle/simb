@@ -1,5 +1,5 @@
 import styles from "./styles";
-import { Navbar } from "./components";
+import { Navbar, TableComponent, TitleSectionComponent } from "./components";
 
 const App = () => (
   <div className="bg-white w-full overflow-hidden">
@@ -8,14 +8,21 @@ const App = () => (
     >
       <div className={`${styles.boxWidth}`}>
         <Navbar />
-        asd
       </div>
     </div>
 
+    {/* <Hero /> */}
+    <div className={`bg-white ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth} text-center`}>
+        Hero Content
+      </div>
+    </div>
+
+    {/* table */}
     <div className={`bg-white ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        {/* <Hero /> */}
-        asd
+        <TitleSectionComponent title="Daftar Gempa Terkini" />
+        <TableComponent />
       </div>
     </div>
 
