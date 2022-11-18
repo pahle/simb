@@ -1,5 +1,5 @@
 import styles from "./styles";
-// import { Navbar, Hero } from "./components";
+import { Navbar } from "./components";
 
 const App = () => (
   <div className="bg-white w-full overflow-hidden">
@@ -7,7 +7,7 @@ const App = () => (
       className={`${styles.paddingX} ${styles.flexCenter}`}
     >
       <div className={`${styles.boxWidth}`}>
-        {/* <Navbar /> */}
+        <Navbar />
         asd
       </div>
     </div>
