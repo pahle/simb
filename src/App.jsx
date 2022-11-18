@@ -2,20 +2,19 @@ import styles from "./styles";
 import { Navbar } from "./components";
 
 const App = () => (
-  <div className="bg-white w-full overflow-hidden">
+  <div className="bg-blue-500 w-full overflow-hidden">
     <div
-      className={`${styles.paddingX} ${styles.flexCenter}`}
+      className={`${styles.flexCenter}`}
     >
       <div className={`${styles.boxWidth}`}>
         <Navbar />
-        asd
       </div>
     </div>
 
     <div className={`bg-white ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         {/* <Hero /> */}
-        asd
+        Hero
       </div>
     </div>
 
