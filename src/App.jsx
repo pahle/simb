@@ -2,11 +2,11 @@ import styles from "./styles";
 import { Navbar, TableComponent, TitleSectionComponent } from "./components";
 
 const App = () => (
-  <div className="bg-blue-500 w-full overflow-hidden">
+  <div className="w-full overflow-hidden">
     <div
       className={`${styles.flexCenter}`}
     >
-      <div className={`${styles.boxWidth}`}>
+      <div className="w-full">
         <Navbar />
       </div>
     </div>

@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="bg-red-300 w-full flex px-4 py-6 relative z-40">
+      <div className="bg-red-300 w-full flex xl:px-48 px-6 py-6 relative z-40 justify-between">
         <a href="/" className="font-semibold text-[24px]">
           Logo
         </a>
