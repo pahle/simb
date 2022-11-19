@@ -2,7 +2,9 @@ import styles from "./styles";
 import {
   Navbar,
   TableComponent,
-  TitleSectionComponent, ButtonComponent, CardComponent,
+  TitleSectionComponent,
+  ButtonComponent,
+  CardComponent,
   Hero,
 } from "./components";
 
@@ -23,25 +25,7 @@ const App = () => (
     {/* table */}
     <div className={`bg-white ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <TitleSectionComponent title="Daftar Gempa Terkini" />
-        <TableComponent />
-      </div>
-    </div>
-
-    {/* mitigasi bencana */}
-    <div className={`bg-white ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth} text-center`}>
-        <TitleSectionComponent title="Mitigasi Bencana" />
-        {/* <ButtonComponent variant="contained" Button="Mitigasi Bencana" /> */}
-        <CardComponent title="Gempa Bumi" />
-      </div>
-    </div>
-
-    {/* berita terkini */}
-    <div className={`bg-white ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth} text-center`}>
-        <TitleSectionComponent title="Berita Terkini" />
-        <CardComponent title="Gempa Bumi" />
+       
       </div>
     </div>
 
@@ -49,7 +33,11 @@ const App = () => (
       className={`bg-white ${styles.paddingX} ${styles.flexStart}`}
     >
       <div className={`${styles.boxWidth}`}>
-        {/* Imported Component */}
+        <TableComponent />
+        <TitleSectionComponent title="Mitigasi Bencana" />
+        <CardComponent title="Gempa Bumi" />
+        <TitleSectionComponent title="Berita Terkini" />
+        <CardComponent title="Gempa Bumi" />
       </div>
     </div>
   </div>
