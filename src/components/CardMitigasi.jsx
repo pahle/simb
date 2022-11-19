@@ -1,7 +1,7 @@
 import React from "react";
 import '@coreui/coreui/dist/css/coreui.min.css';
 import { CCard, CCardImage, CCardBody, CCardText, CCardTitle, CCol, CRow, CCardFooter } from '@coreui/react';
-import ButtonComponent from "./ButtonComponent";
+import ButtonComponent from "./Button";
 
 const CardComponent = (props) => {
     return (
@@ -19,9 +19,9 @@ const CardComponent = (props) => {
         <CRow xs={{ cols: 1, gutter: 4 }} md={{ cols: 2 }}>
             <CCol xs>
                 <CCard>
-                <CCardImage orientation="top" src="/images/react.jpg" />
+                <CCardImage orientation="top" src="/images/react.jpg" alt="Thumbnail" />
                 <CCardBody>
-                    <CCardTitle>Card title</CCardTitle>
+                    <CCardTitle>{props.title}</CCardTitle>
                     <CCardText>
                     This is a wider card with supporting text below as a natural lead-in to additional
                     content. This content is a little bit longer.
