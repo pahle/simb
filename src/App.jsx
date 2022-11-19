@@ -2,11 +2,11 @@ import styles from "./styles";
 import { Navbar, TableComponent, TitleSectionComponent, ButtonComponent, CardComponent } from "./components";
 
 const App = () => (
-  <div className="bg-white w-full overflow-hidden">
+  <div className="w-full overflow-hidden">
     <div
-      className={`${styles.paddingX} ${styles.flexCenter}`}
+      className={`${styles.flexCenter}`}
     >
-      <div className={`${styles.boxWidth}`}>
+      <div className="w-full">
         <Navbar />
       </div>
     </div>
@@ -26,12 +26,20 @@ const App = () => (
       </div>
     </div>
 
-    {/* pra bencana */}
+    {/* mitigasi bencana */}
     <div className={`bg-white ${styles.flexStart}`}>
       <div className={`${styles.boxWidth} text-center`}>
-        <TitleSectionComponent title="Pra Bencana" />
-        <ButtonComponent variant="contained" Button="Mitigasi Bencana" />
-        <CardComponent />
+        <TitleSectionComponent title="Mitigasi Bencana" />
+        {/* <ButtonComponent variant="contained" Button="Mitigasi Bencana" /> */}
+        <CardComponent title="Gempa Bumi" />
+      </div>
+    </div>
+
+    {/* berita terkini */}
+    <div className={`bg-white ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth} text-center`}>
+        <TitleSectionComponent title="Berita Terkini" />
+        <CardComponent title="Gempa Bumi" />
       </div>
     </div>
 
