@@ -1,5 +1,5 @@
 import styles from "./styles";
-import { Navbar, TableComponent, TitleSectionComponent } from "./components";
+import { Navbar, TableComponent, TitleSectionComponent, ButtonComponent, CardComponent } from "./components";
 
 const App = () => (
   <div className="bg-white w-full overflow-hidden">
@@ -23,6 +23,15 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <TitleSectionComponent title="Daftar Gempa Terkini" />
         <TableComponent />
+      </div>
+    </div>
+
+    {/* pra bencana */}
+    <div className={`bg-white ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth} text-center`}>
+        <TitleSectionComponent title="Pra Bencana" />
+        <ButtonComponent variant="contained" Button="Mitigasi Bencana" />
+        <CardComponent />
       </div>
     </div>
 
