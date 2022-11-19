@@ -5,6 +5,7 @@ import {
   TitleSection,
   CardMitigasi,
   Hero,
+  Landing,
 } from "./components";
 
 const App = () => (
@@ -32,11 +33,7 @@ const App = () => (
       className={`bg-white ${styles.paddingX} ${styles.flexStart}`}
     >
       <div className={`${styles.boxWidth}`}>
-        <TableGempa />
-        <TitleSection title="Mitigasi Bencana" />
-        <CardMitigasi title="Gempa Bumi" />
-        <TitleSection title="Berita Terkini" />
-        <CardMitigasi title="Gempa Bumi" />
+        <Landing />
       </div>
     </div>
   </div>
