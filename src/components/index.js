@@ -1,14 +1,14 @@
 import Navbar from "./Navbar";
-import TableComponent from "./TableComponent";
-import TitleSectionComponent from "./TitleSectionComponent";
+import TableGempa from "./TableGempa";
+import TitleSection from "./TitleSection";
 import Hero from "./Hero";
-import ButtonComponent from "./ButtonComponent";
-import CardComponent from "./CardComponent";
+import Button from "./Button";
+import CardMitigasi from "./CardMitigasi";
 
 
 export {
   Navbar,
-  TableComponent,
-  TitleSectionComponent, ButtonComponent, CardComponent,
+  TableGempa,
+  TitleSection, Button, CardMitigasi,
   Hero,
 };

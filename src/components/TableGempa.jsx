@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { AmbilDataGempa } from "../API/fetchApi";
-import TitleSectionComponent from "./TitleSectionComponent"
+import TitleSectionComponent from "./TitleSection"
 
 export default function TableComponent() {
   const [data, setData] = useState([]);

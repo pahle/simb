@@ -1,10 +1,9 @@
 import styles from "./styles";
 import {
   Navbar,
-  TableComponent,
-  TitleSectionComponent,
-  ButtonComponent,
-  CardComponent,
+  TableGempa,
+  TitleSection,
+  CardMitigasi,
   Hero,
 } from "./components";
 
@@ -33,11 +32,11 @@ const App = () => (
       className={`bg-white ${styles.paddingX} ${styles.flexStart}`}
     >
       <div className={`${styles.boxWidth}`}>
-        <TableComponent />
-        <TitleSectionComponent title="Mitigasi Bencana" />
-        <CardComponent title="Gempa Bumi" />
-        <TitleSectionComponent title="Berita Terkini" />
-        <CardComponent title="Gempa Bumi" />
+        <TableGempa />
+        <TitleSection title="Mitigasi Bencana" />
+        <CardMitigasi title="Gempa Bumi" />
+        <TitleSection title="Berita Terkini" />
+        <CardMitigasi title="Gempa Bumi" />
       </div>
     </div>
   </div>
