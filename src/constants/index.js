@@ -4,11 +4,11 @@ export const navLinks = [
     title: "Beranda",
   },
   {
-    id: "pengumuman",
-    title: "Pengumuman",
+    id: "mitigasi",
+    title: "Mitigasi",
   },
   {
-    id: "peraturan",
-    title: "Peraturan",
+    id: "laporan",
+    title: "Laporan",
   },
 ];
