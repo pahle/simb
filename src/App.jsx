@@ -1,5 +1,5 @@
 import styles from "./styles";
-import { Navbar, TableComponent, TitleSectionComponent } from "./components";
+import { Navbar, TableComponent, TitleSectionComponent, Hero } from "./components";
 
 const App = () => (
   <div className="w-full overflow-hidden">
@@ -7,14 +7,14 @@ const App = () => (
       className={`${styles.flexCenter}`}
     >
       <div className="w-full">
+        
         <Navbar />
       </div>
     </div>
 
-    {/* <Hero /> */}
-    <div className={`bg-white ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth} text-center`}>
-        Hero Content
+    <div className={`bg-white ${styles.flexStart} `}>
+      <div className="w-full">
+        <Hero />
       </div>
     </div>
 
