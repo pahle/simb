@@ -19,7 +19,7 @@ export default function TableComponent() {
   return (
     <section>
       <TitleSectionComponent title="Daftar Gempa Terkini"/>
-      <div className="flex flex-col md:w-9/12 w-full mx-auto">
+      <div className="flex flex-col w-full mx-auto">
         <div className="overflow-x-auto">
           <div className="p-1.5 w-full inline-block align-middle">
             <div className="overflow-hidden border rounded-lg">
