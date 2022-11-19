@@ -1,13 +1,15 @@
 import styles from "./styles";
-import { Navbar, TableComponent, TitleSectionComponent, Hero } from "./components";
+import {
+  Navbar,
+  TableComponent,
+  TitleSectionComponent,
+  Hero,
+} from "./components";
 
 const App = () => (
   <div className="w-full overflow-hidden">
-    <div
-      className={`${styles.flexCenter}`}
-    >
+    <div className={`${styles.flexCenter}`}>
       <div className="w-full">
-        
         <Navbar />
       </div>
     </div>

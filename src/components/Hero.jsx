@@ -3,7 +3,7 @@ import styles from "../styles";
 const Hero = () => (
   <section
     id="beranda"
-    className={`flex md:flex-row flex-col ${styles.paddingY} bg-gradient-to-r from-[#030F6B] to-[#23284F] h-[420px] md:h-[365px] text-center text-sm px-5 sm:p-0`}
+    className={`flex md:flex-row flex-col ${styles.paddingY} bg-gradient-to-r from-[#030F6B] to-[#23284F] h-[420px] md:h-[365px] text-center text-sm px-5 sm:p-0 mt-[84px]`}
   >
     <div
       className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}

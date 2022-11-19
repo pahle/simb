@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav>
+    <nav className="fixed top-0 w-full shadow-md">
       <div className="bg-white w-full flex xl:px-48 px-6 py-6 relative z-40 justify-between ">
         <a href="/" className="font-semibold text-[24px] sticky top-0">
           Logo
@@ -40,8 +40,8 @@ const Navbar = () => {
       </div>
       <div
         className={`${
-          toggle ? "top-[84px] opacity-100" : "top-[-152px] opacity-0"
-        } p-6 bg-gray-500 absolute z-[20] top-[84px] right-0 min-w-full justify-center transition-all duration-300 ease-in-out`}
+          toggle ? "top-[83px] opacity-100 border-t-2" : "top-[-152px] opacity-0"
+        } p-6 bg-white shadow-md absolute z-[20] top-[84px] right-0 min-w-full justify-center transition-all duration-300 ease-in-out`}
       >
         <ul className="list-none flex flex-col justify-end items-center">
           {navLinks.map((nav, index) => (
@@ -51,7 +51,7 @@ const Navbar = () => {
                 index === navLinks.length - 1
                   ? "mr-0"
                   : "mb-4"
-              } text-white`}
+              }`}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
