@@ -11,7 +11,7 @@ import {
 const App = () => (
   <div className="w-full overflow-hidden">
     <div className={`${styles.flexCenter}`}>
-      <div className="w-full">
+      <div className="w-full relative z-[2]">
         <Navbar />
       </div>
     </div>
@@ -30,7 +30,7 @@ const App = () => (
     </div>
 
     <div
-      className={`bg-white ${styles.paddingX} ${styles.flexStart}`}
+      className={`bg-white ${styles.paddingX} ${styles.flexStart} relative z-[1]`}
     >
       <div className={`${styles.boxWidth}`}>
         <Landing />

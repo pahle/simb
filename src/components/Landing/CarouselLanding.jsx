@@ -5,7 +5,7 @@ import { CCarousel, CImage, CCarouselItem } from '@coreui/react';
 
 const CarouselLanding = () => {
     return (
-        <CCarousel controls className="max-w-[300px] rounded-[15px] overflow-hidden">
+        <CCarousel controls className="max-w-[300px] rounded-[15px] overflow-hidden ">
             <CCarouselItem>
                 <CImage className="d-block" width="300px" src="../../../src/assets/images/Landing/Bencana1.jpg" alt="slide 1" />
             </CCarouselItem>
