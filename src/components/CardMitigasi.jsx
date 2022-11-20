@@ -1,21 +1,10 @@
 import React from "react";
 import '@coreui/coreui/dist/css/coreui.min.css';
 import { CCard, CCardImage, CCardBody, CCardText, CCardTitle, CCol, CRow, CCardFooter } from '@coreui/react';
-import ButtonComponent from "./Button";
+import Button from "./Button";
 
 const CardComponent = (props) => {
     return (
-        // <CCard style={{ width: '18rem' }}>
-        //     <CCardImage orientation="top" src={props.thumbnail} alt="thumbnail berita" />
-        //     <CCardBody>
-        //         <CCardTitle>{props.title}</CCardTitle>
-        //         <CCardText className="pb-4">
-        //         {props.excerpt}
-        //         </CCardText>
-        //         <ButtonComponent Button="Read more" />
-        //     </CCardBody>
-        // </CCard>
-
         <CRow xs={{ cols: 1, gutter: 4 }} md={{ cols: 2 }}>
             <CCol xs>
                 <CCard>
@@ -27,6 +16,7 @@ const CardComponent = (props) => {
                     content. This content is a little bit longer.
                     </CCardText>
                 </CCardBody>
+                <Button Button="Read more" />
                 <CCardFooter>
                     <small className="text-medium-emphasis">Last updated 3 mins ago</small>
                 </CCardFooter>
