@@ -10,13 +10,33 @@ const CardComponent = (props) => {
                 <CCard>
                 <CCardImage orientation="top" src="/images/react.jpg" alt="Thumbnail" />
                 <CCardBody>
-                    <CCardTitle>{props.title}</CCardTitle>
+                    <CCardTitle className="font-semibold">Gempa Bumi</CCardTitle>
                     <CCardText>
                     This is a wider card with supporting text below as a natural lead-in to additional
                     content. This content is a little bit longer.
                     </CCardText>
                 </CCardBody>
-                <Button Button="Read more" />
+                <div className="text-center mb-3">
+                    <Button Button="Read more" />
+                </div>
+                <CCardFooter>
+                    <small className="text-medium-emphasis">Last updated 3 mins ago</small>
+                </CCardFooter>
+                </CCard>
+            </CCol>
+            <CCol xs>
+                <CCard>
+                <CCardImage orientation="top" src="/images/react.jpg" alt="Thumbnail" />
+                <CCardBody>
+                    <CCardTitle className="font-semibold">Bencana Tsunami</CCardTitle>
+                    <CCardText>
+                    This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.
+                    </CCardText>
+                </CCardBody>
+                <div className="text-center mb-3">
+                    <Button Button="Read more" />
+                </div>
                 <CCardFooter>
                     <small className="text-medium-emphasis">Last updated 3 mins ago</small>
                 </CCardFooter>
