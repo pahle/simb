@@ -2,8 +2,8 @@ import React from "react";
 
 const TableComponent = (props) => {
     return (
-        <div className="w-full pb-4">
-            <div className="text-center text-5xl font-semibold p-3">
+        <div className="w-full my-3">
+            <div className="text-left text-3xl font-semibold">
                 {props.title}
             </div>
         </div>
