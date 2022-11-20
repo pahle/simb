@@ -1,6 +1,6 @@
 import React from "react";
 
-const TableComponent = (props) => {
+const TitleSection = (props) => {
     return (
         <div className="w-full pb-4">
             <div className="text-center text-5xl font-semibold p-3">
@@ -10,8 +10,8 @@ const TableComponent = (props) => {
     );
 }
 
-TableComponent.defaultProps = {
+TitleSection.defaultProps = {
     title: 'Judul'
 }
 
-export default TableComponent;
+export default TitleSection;

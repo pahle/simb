@@ -1,15 +1,14 @@
 import Navbar from "./Navbar";
-import TableGempa from "./TableGempa";
-import TitleSection from "./TitleSection";
 import Hero from "./Hero";
 import Button from "./Button";
-import CardMitigasi from "./CardMitigasi";
-import Mitigasi from "./Mitigasi"
+import Mitigasi from "./Mitigasi";
+import Home from "./Home";
+import GempaTerkini from "./Home/GempaTerkini";
 
 export {
-  Navbar,
-  TableGempa,
-  TitleSection, Button, CardMitigasi,
+  Navbar, Button,
   Hero,
   Mitigasi,
+  Home,
+  GempaTerkini
 };
