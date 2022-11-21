@@ -161,3 +161,8 @@ Button.css-sghohy-MuiButtonBase-root-MuiButton-root  {
   text-transform: none;
   font-weight: unset;
 }
+
+.leaflet-container {
+  height: 100vh;
+  width: 100%;
+}
