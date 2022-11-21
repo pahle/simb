@@ -14,7 +14,7 @@ const App = () => (
         <Navbar />
       </div>
     </div>
-{/* 
+
     <div className={`bg-white ${styles.flexStart} `}>
       <div className="w-full">
         <Hero />
@@ -27,23 +27,23 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Mitigasi />
       </div>
-    </div> */}
+    </div>
 
-    {/* hero */}
+    {/* hero
     <div className={`bg-white ${styles.flexStart} `}>
       <div className="w-full">
         <GempaTerkini/>
       </div>
     </div>
 
-    {/* content */}
+    content
     <div
       className={`bg-white ${styles.paddingX} ${styles.flexStart} relative z-[1]`}
     >
       <div className={`${styles.boxWidth}`}>
         <Home />
       </div>
-    </div>
+    </div> */}
 
     {/* table */}
     <div className={`bg-white ${styles.flexStart}`}>
